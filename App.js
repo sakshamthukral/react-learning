@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // const heading = React.createElement("h1", {id:"heading"},"Hello World from React!")
 // console.log(heading) // object
 // const root = ReactDOM.createRoot(document.getElementById("root")); 
@@ -12,7 +15,7 @@
 
 
 // So it's like a JS object inside another JS object inside another JS object at the end
-headingObject1 = React.createElement("h1",{}, "This is the h1 Tag");
+headingObject1 = React.createElement("h1",{}, "This is the h1 Tag from Namaste React");
 headingObject2 = React.createElement("h2",{}, "This is the h2 Tag");
 
 childObject1 = React.createElement("div", {id:"child1"}, [headingObject1, headingObject2]);
